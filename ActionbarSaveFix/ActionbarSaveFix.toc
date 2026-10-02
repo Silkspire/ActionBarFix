@@ -1,0 +1,8 @@
+## Interface: 11402
+## Title: ActionbarSaveFix
+## Notes: Keeps item and macro action bar buttons on private servers that fail to persist them. Re-arrange your bars freely; no manual saving.
+## Author: Space Bunny Free
+## Version: 1.7
+## SavedVariables: ActionbarSaveFix
+
+ActionbarSaveFix.lua

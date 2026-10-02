@@ -1,0 +1,17 @@
+# Ignore editor and OS noise
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Never commit addon backups. These contain earlier, BROKEN versions that call
+# PlaceAction(slot, type, id) -- the retail signature, which Classic Era silently
+# ignores. Loading one would give someone a non-functional addon with no error.
+*.bak
+*.bak.*
+*.orig
+*.rej
+
+# Release artifacts are attached via GitHub Releases, not committed here.
+# Uncomment if you would rather track them in-repo.
+# ActionbarSaveFix-*.zip
